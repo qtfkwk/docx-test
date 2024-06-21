@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "Sch_UnexpectedElementContentExpectingComplex",
+    "Description": "The element has unexpected child element 'http://schemas.openxmlformats.org/wordprocessingml/2006/main:pPr'.",
+    "Namespaces": {},
+    "XPath": "/w:styles[1]/w:style[1]",
+    "PartUri": "/word/styles.xml",
+    "ErrorType": "Schema"
+  },
+  {
+    "Id": "Sch_InvalidElementContentExpectingComplex",
+    "Description": "The element has invalid child element 'http://schemas.openxmlformats.org/wordprocessingml/2006/main:rPr'. List of possible elements expected: <http://schemas.openxmlformats.org/wordprocessingml/2006/main:keepNext>.",
+    "Namespaces": {},
+    "XPath": "/w:styles[1]/w:style[1]/w:pPr[1]",
+    "PartUri": "/word/styles.xml",
+    "ErrorType": "Schema"
+  },
+  {
+    "Id": "Sch_InvalidElementContentExpectingComplex",
+    "Description": "The element has invalid child element 'http://schemas.openxmlformats.org/wordprocessingml/2006/main:rPr'. List of possible elements expected: <http://schemas.openxmlformats.org/wordprocessingml/2006/main:keepNext>.",
+    "Namespaces": {},
+    "XPath": "/w:styles[1]/w:docDefaults[1]/w:pPrDefault[1]/w:pPr[1]",
+    "PartUri": "/word/styles.xml",
+    "ErrorType": "Schema"
+  },
+  {
+    "Id": "Sch_UnexpectedElementContentExpectingComplex",
+    "Description": "The element has unexpected child element 'http://schemas.openxmlformats.org/wordprocessingml/2006/main:zoom'.",
+    "Namespaces": {},
+    "XPath": "/w:settings[1]",
+    "PartUri": "/word/settings.xml",
+    "ErrorType": "Schema"
+  }
+]
